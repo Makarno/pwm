@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="manifest" href="manifest.json">
+
+        <title>PortofolioMakarno</title>
+    </head>
+
+    <body class="mt-5">
+        <!-- navbar top -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Makarno</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="about.html">About</a>
+                        <a class="nav-item nav-link" href="portofolio.html">Portofolio</a>
+                        <a class="nav-item nav-link disabled" href="infocovid.html">infocovid</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- end nav top -->
+
+        <!-- jumbotron -->
+        <div class="jumbotron jumbotron-fluid bg-white mb-0">
+            <div class="container text-center text-dark">
+                <img src="img/arno.jpg" width="25%" class="rounded-circle img-thumbnail">
+                <h1 class="display-4">Makarno</h1>
+                <p class="lead">About Me</p>
+            </div>
+        </div>
+        <!-- end jumbotron -->
+
+
+        <!-- footer -->
+        <footer class="bg-dark text-white mt-0 fixed-bottom">
+            <div class="container">
+                <div class="row pt-3">
+                    <div class="col text-center">
+                        <p>Copyright 2021.</p>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!-- end footer -->
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="service-workers.js"></script>
+        <script src="js/jquery-3.2.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            if (navigator.serviceWorker) {
+                navigator.serviceWorker.register("service-workers.js");
+            }
+        </script>
+    </body>
+
+</html>
